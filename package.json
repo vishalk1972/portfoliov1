@@ -1,7 +1,7 @@
 {
   "name": "portfolio-management",
   "version": "1.0.0",
-  "description": "A comprehensive portfolio management system",
+  "description": "Portfolio Management System - Pure HTML/CSS/JS",
   "main": "backend/server.js",
   "private": true,
   "scripts": {
