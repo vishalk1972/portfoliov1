@@ -2,12 +2,12 @@
   "name": "portfolio-management",
   "version": "1.0.0",
   "description": "A comprehensive portfolio management system",
-  "main": "server.js",
+  "main": "backend/server.js",
   "private": true,
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "nodemon backend/server.js",
     "build": "next build",
-    "start": "node server.js",
+    "start": "node backend/server.js",
     "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -67,7 +67,8 @@
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.9",
     "zod": "3.25.67",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.9",
